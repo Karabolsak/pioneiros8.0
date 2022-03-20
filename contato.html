@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logocapitulonovo.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylecontato.css" type="text/css">
+    <title>Contato</title>
+</head>
+<body>
+    <header> 
+        <div class="cabecalho"> 
+            <div class="blur">
+                <div class="cabecalho">
+                    <img class="imgcabecalho" src="imagens/logocapitulonovo.png" alt="logocapitulo"> 
+                        <div>
+                            <h1>Contato</h1>
+                        </div>
+                    <img class="imgcabecalho" src="imagens/emblemademolay.png" alt="emblemademolay">
+                </div>
+            </div>  
+        </div>          
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">⚔️
+                <span id="botao-nav"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="membros.html">Membros</a></li>
+                <li><a href="#">Realizações</a></li>
+                <li><a href="#">Patrocinadores</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="#">Doações</a></li>
+                <li><a href="https://wa.me/5511967956192?text=Olá%20Gostaria%20de%20estar%20conversando%20com%20um%20membro%20da%20Ordem%20DeMolay." target="_blank">WhatsApp</a></li>
+            </ul>
+        </nav>  
+        <script src="scriptnav.js"></script> 
+    </header>
+    <main>
+        <div class="geral"> 
+        <h1 class="titulo-prin">Contato DeMolay</h1>
+        <p class="paragrafo">E-mail destinado á agendamento de atendimento presencial e duvidas</p>
+            <div class="formulario-geral">
+                <form action="." method="." enctype=".">
+                    <fieldset class="grupo">
+                        <div>
+                            <label class="titulo" for="nome"><strong>Nome completo:</strong></label>
+                            <input type="text" name="nome" id="nomecompleto" required>
+                        </div>
+                        <div>
+                            <label class="titulo" for="date"><strong>Data de nascimento:</strong></label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                    </fieldset>
+                    <fieldset class="grupo">
+                        <div>
+                            <label class="titulo" for="Escolaridade"><strong>Escolaridade</strong></label>
+                                <select id="escolaridade" name="escolaridade" required>
+                                <option selected disabled value="">Selecione</option>
+                                <option>Cursando ensino fundamental</option>
+                                <option>Cursando ensino médio</option>
+                                <option>Cursando ensino médio + técnico</option>
+                                <option>Ensino médio completo</option>
+                                <option>Curso técnico em andamento</option>
+                                <option>Graduação em andamento</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="titulo"><strong>Tem vontade de iniciar na Ordem DeMolay?</strong></label>
+                                <label class="radio1">
+                                    <input type="radio" name="questao" value="sim" checked>Sim
+                                </label>
+                                <label class="radio1">
+                                    <input type="radio" name="questao" value="nao">Não
+                                </label>
+                                <label class="radio1">
+                                    <input type="radio" name="questao" value="talvez">Talvez
+                                </label>
+                                <label class="radio1">
+                                    <input type="radio" name="questao" value="vontade de conhecer">Vontade de conhecer
+                                </label> 
+                        <div>
+                            <label class="titulo" for="text"><strong>E-mail:</strong></label>
+                            <input type="email" name="email" required><br>
+                            <label class="titulo" for="text"><strong>Sua mensagem:</strong></label>
+                            <textarea name="mensagem" id="textarea" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="botoes"> 
+                            <div><input class="b1" type="reset" value="Limpar"></div>
+                            <div><input class="b1" type="submit" value="Enviar"></div>
+                           
+                        </div>
+                    </fieldset>
+            
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="div-roda">
+            <div>
+                <div class="div-a">
+                   <div class="rede-social">
+                        <div class="conf-a">
+                            <a href="https://www.facebook.com/pioneirosdeitaqua/" target="_blank">
+                                <img class="social" src="imagens/facebook.png" alt="facebook">
+                            </a>
+                            <div><h1><a href="https://www.facebook.com/pioneirosdeitaqua/" target="_blank">facebook</a></h1></div>
+                        </div>
+                   </div>
+                    <div class="rede-social">
+                        <div class="conf-a">
+                            <a href="https://instagram.com/cap.pioneirosdeitaqua?utm_medium=copy_link">
+                                <img class="social" src="imagens/instagram.png" alt="instagram">
+                           </a>
+                           <div><h1><a href="https://instagram.com/cap.pioneirosdeitaqua?utm_medium=copy_link" target="_blank">@cap.pioneirosdeitaqua</a></h1></div>
+                        </div>
+                    </div>
+                    <div class="rede-social">
+                        <div class="conf-a">
+                            <a href="#">
+                                <img class="social" src="imagens/trabalheconosco.png" alt="trabalheconosco">
+                           </a>
+                           <div><h1><a href="#">Trabalhe Conosco</a></h1></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="titulo-roda">Desenvolvido por Pioneiros de Itaquá</h1>
+                <img class="roda-img" src="imagens/supremo1.png" alt="logosupremo">
+                <img class="roda-img" src="imagens/logocapitulonovo.png" alt="logocapitulonovo">
+                <img class="roda-img" src="imagens/emblemademolay.png" alt="emblemademolay">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
